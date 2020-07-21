@@ -1,6 +1,7 @@
 """Garage wrappers for gym environments."""
 
 from garage.envs.env_spec import EnvSpec
+from garage.envs.environment import Environment
 from garage.envs.garage_env import GarageEnv
 from garage.envs.grid_world_env import GridWorldEnv
 from garage.envs.multi_env_wrapper import MultiEnvWrapper
@@ -13,6 +14,7 @@ __all__ = [
     'GarageEnv',
     'Step',
     'EnvSpec',
+    'Environment',
     'GridWorldEnv',
     'MultiEnvWrapper',
     'normalize',
